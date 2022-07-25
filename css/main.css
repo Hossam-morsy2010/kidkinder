@@ -1,0 +1,349 @@
+/*main website color*/
+:root {
+  --color: #17A2B8;
+}
+/* font-family: 'Handlee', cursive; */
+/*start navbar css*/
+.logo h1 {
+  color: var(--color);
+}
+.logo i {
+  color: #001D29;
+}
+.main_nav_links li a:not(.home_activ){
+  color: #001D29 !important;
+}
+.main_nav_links li a:hover {
+  color: var(--color) !important;
+}
+.home_activ {
+  color: var(--color) !important;
+}
+.last_item {
+  list-style: none;
+}
+.last_item a {
+  background-color: var(--color) !important;
+  color: white !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/*end navbar css*/
+/*start main banner section*/
+.main_banner {
+  background-color: var(--color);
+  min-height: 90vh;
+}
+.left_section h2 {
+  font-size: 4em;
+}
+.left_section button {
+  background-color: #00394f !important;
+  border-color: #00394f !important;
+}
+.left_section button:hover {
+  background-color: #001D29 !important;
+}
+.left_section p:first-child, h2 {
+  font-family: 'Handlee', cursive;
+}
+/*end main banner section*/
+/*start feature section*/
+.features_container {
+  margin-top: 5em;
+}
+.f_card {
+  background-color: #F8F9FA;
+}
+.f_card h4 {
+  color: #48394F !important;
+  font-family: 'Handlee', cursive;
+}
+.card_icon {
+  color: var(--color);
+}
+/*end feature section*/
+/*start about us section*/
+.about_container {
+  min-height: 50vh;
+}
+
+.upper p:first-child {
+  letter-spacing: 1px;
+  color: var(--color);
+  position: relative;
+}
+.upper p:first-child::after {
+  content: '';
+  position: absolute;
+  width: 10%;
+  height: 2px;
+  background-color: var(--color) !important;
+  top: 50%;
+  left: 9em;
+}
+.upper h2 {
+  color: #00394F !important;
+}
+.middle_right_details p {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.middle_right_details p i {
+  color: var(--color);
+}
+.lower button {
+  background-color: var(--color) !important;
+}
+/*end about us section*/
+/*start popular classes section*/
+.classes_header p {
+  color: var(--color) !important;
+  position: relative;
+}
+.classes_header p::before {
+position: absolute;
+content: '';
+width: 40%;
+height: 2px;
+background-color: var(--color) !important;
+top: 50%;
+right: 9em;
+}
+.classes_header p::after {
+  position: absolute;
+  content: '';
+  width: 40%;
+  height: 2px;
+  background-color: var(--color) !important;
+  top: 50%;
+  left: 9em;
+  }
+  .classes_header h2 {
+    color: #001D29 !important;
+  }
+  .claases_details h4 {
+    font-family: 'Handlee', cursive; 
+    color: #001D29 !important;
+  }
+  .last_cell {
+    border-bottom: 0;
+  }
+  .lowest_button button {
+    background-color: var(--color) !important;
+  }
+  .lowest_button button:hover {
+    background-color: #00394F !important;
+  }
+/*end popular classes section*/
+/*start booking section*/
+.booking_left p:first-child {
+  color: var(--color) !important;
+  font-family: 'Handlee', cursive;
+  position: relative;
+}
+.booking_left p:first-child::after {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 2px;
+  background-color: var(--color) !important;
+  top: 43%;
+  left: 7em;
+}
+.booking_left h2 {
+  color: #001D29 !important;
+}
+.booking_left p i {
+  color: #28A745 !important;
+}
+.booking_button {
+  background-color: var(--color) !important;
+}
+.booking_button:hover {
+  background-color: #00394f !important;
+}
+.form_header {
+  background-color: #00394F !important;
+  font-family: 'Handlee', cursive;
+}
+.form_body {
+  background-color: var(--color) !important;
+  min-height: 40vh;
+}
+.form_body input {
+  padding-top: 0.8em !important;
+  padding-bottom: 0.8em !important;
+}
+.form_body select {
+  padding-top: 0.8em !important;
+  padding-bottom: 0.8em !important;
+}
+.form_body button {
+  background-color: #00394F !important;
+}
+.form_body button:hover {
+  background-color: #001D29 !important;
+}
+/*end booking section*/
+/*start teacher section*/
+.teacher_header p {
+  color: var(--color);
+  position: relative;
+}
+.teacher_header p::after {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 2px;
+  background-color: var(--color) !important;
+  top: 50%;
+  left: -4em;
+}
+.teacher_header p::before {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 2px;
+  background-color: var(--color) !important;
+  top: 50%;
+  right: -4em;
+}
+.teacher_header h2 {
+  color: #001D29 !important;
+}
+.teacher_details h4 {
+  font-family: 'Handlee', cursive;
+  color: #001D29 !important;
+}
+.teacher_card_cover {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(23, 162, 184, 0.6);
+  opacity: 0;
+
+
+}
+
+.teacher_icons {
+  width: 38px;
+  height: 38px;
+  line-height: 2;
+  transition: all 500ms ease-in-out !important;
+
+}
+
+.teacher_icons:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.teacher_photos:hover .teacher_card_cover {
+  opacity: 1;
+  transition: all 500ms ease-in-out !important;
+
+}
+/*end teacher section*/
+/*start testimonials' section*/
+.testimonials_body i {
+  color: var(--color) !important;
+}
+.testimonials_details h4 {
+  font-family: 'Handlee', cursive;
+  color:#001D29 !important;
+}
+.dots {
+  width: 5px;
+  height: 5px;
+  background-color: var(--color) !important;
+  min-height: 3vh;
+}
+/*end testimonials' section*/
+/*start blog section*/
+.blog_details h4 {
+  color: #001D29 !important;
+  font-family: 'Handlee', cursive;
+}
+.blog_details button {
+  background-color: var(--color) !important;
+}
+.blog_details i {
+  color: var(--color) !important;
+}
+.blog_details button:hover {
+  background-color: #00394F !important;
+}
+/*end blog section*/
+/*start footer section*/
+.footer_container {
+  min-height: 80vh;
+  background-color: #00394F !important;
+}
+.first {
+  color: var(--color) !important;
+}
+.teacher_icons1 {
+  width: 38px;
+  height: 38px;
+  line-height: 2;
+  border-color: var(--color) !important;
+  transition: all 500ms ease-in-out !important;
+}
+.teacher_icons1 {
+  color: var(--color) !important;
+}
+.teacher_icons1:hover{
+  background-color: var(--color) !important;
+  color: white !important;
+}
+.get_touch h2 {
+  color: var(--color) !important;
+}
+.get_touch i {
+  color: var(--color);
+}
+.touch_details_minor h5 {
+  font-family: 'Handlee', cursive;
+}
+.quick_links h2 {
+  color: var(--color) !important;
+}
+.quick_links a:hover {
+text-decoration: underline !important;
+}
+.form_header2 {
+  background-color: #00394F !important;
+  font-family: 'Handlee', cursive;
+}
+.form_header2 h2 {
+  color: var(--color) !important;
+}
+.form_body2 {
+  min-height: 40vh;
+}
+.form_body2 input {
+  padding-top: 0.8em !important;
+  padding-bottom: 0.8em !important;
+}
+.form_body2 select {
+  padding-top: 0.8em !important;
+  padding-bottom: 0.8em !important;
+}
+.form_body2 button {
+  background-color: var(--color) !important;
+}
+.form_body2 button:hover {
+  background-color: #001D29 !important;
+}
+.lower_footer p {
+  border-top-color: var(--color) !important;
+}
+.lower_footer p span {
+  color: var(--color) !important;
+}
+/*end footer section*/
